@@ -43,7 +43,7 @@ public class ProductRepository {
         return result;
     }
 
-    public List<Product> getByPrice(Comparator comparator) {
+    public List<Product> getByPrice() {
         items.sort(new ItemsPriceAscComparator());
         return items;
     }

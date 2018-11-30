@@ -26,6 +26,6 @@ public class Main {
 
         System.out.println(repository.getByCategory("Smart"));
 
-        System.out.println(repository.getByPrice(new ItemsPriceAscComparator()));
+        System.out.println(repository.getByPrice());
     }
 }
