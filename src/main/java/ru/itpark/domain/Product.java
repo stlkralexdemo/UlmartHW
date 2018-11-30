@@ -1,6 +1,6 @@
 package ru.itpark.domain;
 
-abstract class Product {
+public abstract class Product {
     private String category;
     private int id;
     private int price;
@@ -47,7 +47,7 @@ abstract class Product {
 
     @Override
     public String toString() {
-        return "\nProduct{" +
+        return
                 "category='" + category + '\'' +
                 ", id=" + id +
                 ", price=" + price +
