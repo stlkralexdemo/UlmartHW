@@ -27,5 +27,8 @@ public class Main {
         System.out.println(repository.getByCategory("Smart"));
 
         System.out.println(repository.getByPrice());
+
+        System.out.println(repository.getItemsByName("Fly"));
+
     }
 }
