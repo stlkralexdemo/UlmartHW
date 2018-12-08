@@ -5,7 +5,6 @@ import ru.itpark.comparator.ItemsPriceAscComparator;
 import ru.itpark.domain.Product;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
 
 public class ProductRepository {
